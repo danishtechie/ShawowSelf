@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ShadowSelf" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.ShadowSelf.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0B1116</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon_final</item>
+        <item name="windowSplashScreenIconBackgroundColor">#0B1116</item>
+        <item name="postSplashScreenTheme">@style/Theme.ShadowSelf</item>
+    </style>
+</resources>

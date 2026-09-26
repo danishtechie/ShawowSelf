@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group for Logo Animation -->
+    <group
+        android:name="logo_group"
+        android:pivotX="54"
+        android:pivotY="40"
+        android:translateY="5">
+        <!-- Shield Logo -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,15 L42,20 L42,33 C42,43 48,50 54,52 C60,50 66,43 66,33 L66,20 L54,15 Z" />
+        <path
+            android:fillColor="#0B1116"
+            android:pathData="M54,21 L48,24 L48,35 L54,38 L60,35 L60,24 L54,21 Z" />
+    </group>
+
+    <!-- Static Developer Credits -->
+    <group
+        android:translateX="25"
+        android:translateY="75">
+
+    </group>
+
+</vector>
